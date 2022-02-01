@@ -1,28 +1,28 @@
 package com.github.eduumach.bootcamp.domain;
 
 public class Course extends Contents{
-    private int work_load;
+    private int workLoad;
 
     @Override
     public double calculate_xp() {
-        return standard_XP * work_load;
+        return standardXP * workLoad;
     }
 
     public Course() {
     }
 
-    public Course(String title, String description, int work_load) {
+    public Course(String title, String description, int workLoad) {
         setTitle(title);
         setDescription(description);
-        this.work_load = work_load;
+        this.workLoad = workLoad;
     }
 
-    public int getWork_load() {
-        return work_load;
+    public int getWorkLoad() {
+        return workLoad;
     }
 
-    public void setWork_load(int work_load) {
-        this.work_load = work_load;
+    public void setWorkLoad(int workLoad) {
+        this.workLoad = workLoad;
     }
 
     @Override
@@ -30,7 +30,7 @@ public class Course extends Contents{
         return "Course{" +
                 "title='" + getTitle() + '\'' +
                 ", description='" + getDescription() + '\'' +
-                ", work_load=" + work_load +
+                ", workLoad=" + workLoad +
                 '}';
     }
 }

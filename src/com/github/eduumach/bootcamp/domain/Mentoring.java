@@ -7,7 +7,7 @@ public class Mentoring extends Contents{
 
     @Override
     public double calculate_xp() {
-        return standard_XP + 20d;
+        return standardXP + 20d;
     }
 
     public Mentoring() {

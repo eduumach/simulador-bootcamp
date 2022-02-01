@@ -2,7 +2,7 @@ package com.github.eduumach.bootcamp.domain;
 
 public abstract class Contents {
 
-    protected static final double standard_XP = 10d;
+    protected static final double standardXP = 10d;
 
     private String title;
     private String description;
