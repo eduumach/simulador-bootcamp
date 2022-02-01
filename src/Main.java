@@ -1,5 +1,5 @@
-import com.github.eduumach.bootcamp.dominio.Course;
-import com.github.eduumach.bootcamp.dominio.Mentoring;
+import com.github.eduumach.bootcamp.domain.Course;
+import com.github.eduumach.bootcamp.domain.Mentoring;
 
 import java.time.LocalDate;
 
