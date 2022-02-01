@@ -10,6 +10,13 @@ public class Dev {
     private Set<Contents> subscribedContent = new LinkedHashSet<>();
     private Set<Contents> completedContents = new LinkedHashSet<>();
 
+    public Dev() {
+    }
+
+    public Dev(String name) {
+        this.name = name;
+    }
+
     public void registerBootcamp(Bootcamp bootcamp){
         this.subscribedContent.addAll(bootcamp.getContents());
         bootcamp.getSubscribedDev().add(this);
